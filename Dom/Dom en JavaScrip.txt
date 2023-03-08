@@ -1,0 +1,36 @@
+    //FORMAS PARA LLAMAR A LAS ETIQUETAS DEL HTML5
+
+document.getElemenById("nombre del id")/*.inerHTML*/;	 //de esta forma se manda a llamar al id del html O SE ACCEDE//
+
+document.getElemenByTaName("nombre de la etiqueta");	//de esta forma se manda a llamar a las etiquetas del html selecionadas O SE ACCEDE//
+
+document.getElemenByClassName("nombre de la clase");	//de esta forma se manda a llamar a la etiqueta que tenga la clase del html //
+
+
+    //ALTERNATIVAS
+
+document.querySelector("deja selecionar cualquier cosa que especifiques en forma de cadena");       //se puede usar con el css , te devuelve el primer elemento que encuentre
+
+document.querySelectorAll("nombre de la clase");		//de esta forma se manda a llamar a todas las  etiqueta con el mismo nombre  //
+
+
+
+
+
+
+
+    //CREAR NODOS
+
+document.createElement("etiqueta que queremos crear")         // para crear un elemtento, solo se ha creado, aun no se agrega al DOM
+
+document.createTextConten  // para crear texto
+
+    //PARA AGREGAR NODOS
+
+parentElement.appendChild 
+parentElement.append
+    container.append("texto creado", document.createElement("etiqueta html5"))
+
+parentElement.insertBefore
+
+parentElement.insertAdjacentElement

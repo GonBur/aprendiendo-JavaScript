@@ -1,0 +1,58 @@
+var = global
+let = de bloque *se usa para que cambie el contenido*
+const = permite guardar variables *se usa para que no cambie el contenido*
+
+console.log(); te permite imprimir las cosas en el navegador
+
+
+
+document.write = 
+document.getelementbyid("selecionar el id");
+document.querySelectorAll = se especifica el elemento Html y la clase que se quiere recuperar
+
+
+-practica_
+let nombre = "Arom";
+let apellido = "Gonzales";
+let saludo = new String("Hola mundo);
+
+console.log(
+nombre.length,   //length=longutud y te permite saber cuantos 
+apellido.length,    caracteres tiene cada letra
+saludo.length,
+		-metodos y van con los parentesis ()
+nombre.toUpperCase(),   //para mayusculas 
+apellido.toLowerCase(), //para minusculas
+lorem.split(),         //para convertir una cadena de texto a un arreglo
+)
+
+
+	-ejemplo 02-
+let a = 2;
+let b = new Number(1);
+let c = 7.19;
+
+console.log(typeof); //te dice de que tipo es la variable, number o cadena de texto
+console.log(c.toFixed(2//se ingresa la cantidad de numeros a mostrar));
+console.log(parseInt(c)); //devuelve solo la parte entera
+
+	-ejemplo 03-
+
+//indefined indica que no se ha inicializado una variable y que el valor esta ausente 	
+let indefinida;
+console.log(indefinida); 
+
+//null es un valor especial que indica la ausencia de un valor
+let nulo = null;
+console.log(null); 
+
+//NaN -Not a Number
+let noEsunNumero = "hola" *3.7;
+console.log(noEsunNumero):
+
+
+	*informacion adicional*
+un objeto es una colecion de atributos y valores
+propiedades son caracteristicas y atributos
+los metodos acciones o funciones que permiten ejecutar algo con la variable o tipo de dato que se este trabajando
+
